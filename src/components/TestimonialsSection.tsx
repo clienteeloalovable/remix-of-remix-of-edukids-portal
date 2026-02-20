@@ -1,21 +1,21 @@
 const testimonials = [
   {
     name: "Camila Rodrigues",
-    text: "As atividades de pareamento de sombras e formas geométricas ajudaram meu filho com Autismo a melhorar muito sua percepção visual e coordenação motora. Material incrível!",
+    text: "Meu filho adora as atividades de interpretação de textos! Ele aprendeu a se concentrar e a compreender o que lê de forma muito mais eficaz.",
     avatar: "👩‍👦",
-    tag: "Mãe — Autismo",
+    tag: "Mãe — Nível 1",
   },
   {
     name: "Roberto Lima",
-    text: "Os exercícios de tracejado e sequência de ações fizeram meu filho com TDAH se sentir mais focado e organizado. Ele adora as atividades de identificação de formas e cores!",
+    text: "As histórias são muito divertidas e educativas. As questões ajudam a refletir sobre o texto de uma maneira prática e simples.",
     avatar: "👨‍👦",
-    tag: "Pai — TDAH",
+    tag: "Pai — Nível 2",
   },
   {
     name: "Fernanda Costa",
-    text: "As atividades de reconhecimento de letras, formação de palavras e caligrafia fizeram uma enorme diferença na leitura e escrita do meu filho com Dislexia. Recomendo demais!",
+    text: "O material de gramática e interpretação avançada fez uma enorme diferença no desempenho escolar da minha filha. Recomendo demais!",
     avatar: "👩‍🏫",
-    tag: "Educadora — Dislexia",
+    tag: "Educadora — Nível 3",
   },
 ];
 
@@ -24,10 +24,10 @@ const TestimonialsSection = () => {
     <section id="depoimentos" className="py-16 md:py-20 bg-accent">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-3xl md:text-4xl font-extrabold text-center text-foreground mb-4">
-          O que pais e educadores <span className="text-gradient-primary">estão dizendo</span>
+          O que dizem nossos <span className="text-gradient-primary">clientes</span>
         </h2>
         <p className="text-center text-muted-foreground font-body text-lg mb-12 max-w-xl mx-auto">
-          Veja os depoimentos de quem já utiliza nossos cadernos de atividades adaptadas.
+          Veja os depoimentos de quem já utiliza nossos materiais de interpretação de textos.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">

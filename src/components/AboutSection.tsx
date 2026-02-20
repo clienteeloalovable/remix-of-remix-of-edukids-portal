@@ -8,7 +8,7 @@ const AboutSection = () => {
 
         <div className="max-w-3xl mx-auto space-y-6 text-center">
           <p className="font-body text-lg text-muted-foreground">
-            Somos uma equipe apaixonada por educação inclusiva. Criamos cadernos de atividades adaptadas que ajudam pais e educadores a apoiar o desenvolvimento de crianças com Autismo, TDAH e Dislexia — com exercícios de percepção visual, coordenação motora, raciocínio lógico e habilidades linguísticas.
+            Somos uma equipe apaixonada por educação. Criamos apostilas de interpretação de textos que ajudam pais e educadores a desenvolver a leitura, compreensão e pensamento crítico das crianças — com histórias envolventes e questões práticas para cada nível.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
@@ -16,21 +16,21 @@ const AboutSection = () => {
               <div className="text-3xl mb-3">🎯</div>
               <h3 className="font-display text-lg font-bold text-foreground mb-2">Missão</h3>
               <p className="font-body text-sm text-muted-foreground">
-                Democratizar o acesso a materiais educativos adaptados, tornando o aprendizado acessível e lúdico para crianças com necessidades especiais.
+                Democratizar o acesso a materiais educativos de qualidade, tornando o aprendizado de leitura acessível e divertido para todas as crianças.
               </p>
             </div>
             <div className="bg-accent rounded-2xl p-6">
               <div className="text-3xl mb-3">👁️</div>
               <h3 className="font-display text-lg font-bold text-foreground mb-2">Visão</h3>
               <p className="font-body text-sm text-muted-foreground">
-                Ser referência em conteúdo educacional inclusivo no Brasil, impactando positivamente a formação de milhares de crianças.
+                Ser referência em conteúdo educacional de interpretação de textos no Brasil, impactando positivamente a formação de milhares de crianças.
               </p>
             </div>
             <div className="bg-accent rounded-2xl p-6">
               <div className="text-3xl mb-3">💛</div>
               <h3 className="font-display text-lg font-bold text-foreground mb-2">Valores</h3>
               <p className="font-body text-sm text-muted-foreground">
-                Inclusão, acessibilidade, respeito à neurodiversidade e compromisso com o desenvolvimento integral da criança.
+                Qualidade, acessibilidade, inovação pedagógica e compromisso com o desenvolvimento integral da criança.
               </p>
             </div>
           </div>

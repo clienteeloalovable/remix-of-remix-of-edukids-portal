@@ -1,25 +1,25 @@
-const CHECKOUT_URL = "https://pay.cakto.com.br/in9npth_775414";
+const CHECKOUT_URL = "https://pay.cakto.com.br/9huzggx_775426";
 
 const benefits = [
   {
-    icon: "🧠",
-    title: "Autismo",
-    description: "Pareamento de sombras, formas geométricas, sequências lógicas e coordenação motora fina para desenvolver percepção visual e cognitividade.",
+    icon: "📚",
+    title: "Leitura e Interpretação",
+    description: "Desenvolvimento de habilidades de leitura e interpretação de textos com histórias envolventes e questões práticas.",
   },
   {
-    icon: "🎯",
-    title: "TDAH",
-    description: "Identificação de objetos, formas e cores, tracejados e sequências de ações que estimulam concentração, foco e organização.",
+    icon: "🧠",
+    title: "Pensamento Crítico",
+    description: "Atividades que estimulam o pensamento crítico e a análise gramatical, ajudando a criança a refletir sobre o que lê.",
   },
   {
     icon: "📖",
-    title: "Dislexia",
-    description: "Reconhecimento de letras e sons, formação de palavras, caça-palavras e caligrafia para desenvolver consciência fonológica e leitura.",
+    title: "Histórias por Nível",
+    description: "Histórias envolventes e educativas para cada nível de aprendizagem: básico, intermediário e avançado.",
   },
   {
     icon: "💡",
-    title: "Aprendizado Lúdico",
-    description: "Conteúdos com imagens coloridas e exercícios interativos que tornam o aprendizado acessível, divertido e envolvente.",
+    title: "Apoio Completo",
+    description: "Apoio completo para crianças de diferentes idades e capacidades de leitura, com materiais prontos para uso.",
   },
 ];
 
@@ -28,10 +28,10 @@ const BenefitsSection = () => {
     <section className="py-16 md:py-20 bg-accent">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-3xl md:text-4xl font-extrabold text-center text-foreground mb-4">
-          Benefícios das <span className="text-gradient-primary">Atividades Adaptadas</span>
+          Benefícios do nosso <span className="text-gradient-primary">material educativo</span>
         </h2>
         <p className="text-center text-muted-foreground font-body text-lg mb-12 max-w-xl mx-auto">
-          Materiais desenvolvidos para atender às necessidades específicas de cada criança.
+          Materiais desenvolvidos para fortalecer a leitura e compreensão textual das crianças.
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -51,7 +51,7 @@ const BenefitsSection = () => {
             rel="noopener noreferrer"
             className="inline-flex bg-hero-gradient text-primary-foreground font-display font-bold text-base md:text-lg px-8 py-3 md:py-4 rounded-full shadow-warm hover:opacity-90 transition-all hover:scale-105"
           >
-            Adquira o Pacote Agora
+            Adquira o Pacote de Interpretação!
           </a>
         </div>
       </div>

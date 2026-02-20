@@ -1,4 +1,4 @@
-const CHECKOUT_URL = "https://pay.cakto.com.br/in9npth_775414";
+const CHECKOUT_URL = "https://pay.cakto.com.br/9huzggx_775426";
 
 const FinalCTASection = () => {
   return (
@@ -7,10 +7,10 @@ const FinalCTASection = () => {
         <div className="max-w-2xl mx-auto">
           <div className="text-5xl md:text-6xl mb-6">🚀</div>
           <h2 className="font-display text-3xl md:text-4xl font-extrabold text-foreground mb-4">
-            Não perca esta <span className="text-gradient-primary">oportunidade!</span>
+            Não perca essa <span className="text-gradient-primary">oportunidade!</span>
           </h2>
           <p className="font-body text-muted-foreground text-base md:text-lg mb-8 max-w-xl mx-auto">
-            Apoie o desenvolvimento das crianças com Autismo, TDAH e Dislexia! Adquira os cadernos de atividades adaptadas e veja os resultados na percepção visual, coordenação motora e habilidades de leitura e escrita.
+            Não perca essa chance de transformar a aprendizagem do seu filho! Adquira o pacote e comece a aprender de forma divertida e eficaz.
           </p>
           <a
             href={CHECKOUT_URL}
@@ -18,7 +18,7 @@ const FinalCTASection = () => {
             rel="noopener noreferrer"
             className="inline-flex bg-hero-gradient text-primary-foreground font-display font-bold text-lg md:text-xl px-10 py-4 md:py-5 rounded-full shadow-warm hover:opacity-90 transition-all hover:scale-105"
           >
-            Compre Agora
+            Adquira Agora
           </a>
         </div>
       </div>

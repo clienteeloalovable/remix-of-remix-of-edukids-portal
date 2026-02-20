@@ -1,24 +1,24 @@
-import autismoImg from "@/assets/activity-autism.jpg";
-import tdahImg from "@/assets/activity-tdah.jpg";
-import dislexiaImg from "@/assets/activity-dislexia.jpg";
+import nivel1Img from "@/assets/product-nivel1.jpg";
+import nivel2Img from "@/assets/product-nivel2.jpg";
+import nivel3Img from "@/assets/product-nivel3.jpg";
 
-const CHECKOUT_URL = "https://pay.cakto.com.br/in9npth_775414";
+const CHECKOUT_URL = "https://pay.cakto.com.br/9huzggx_775426";
 
 const products = [
   {
-    title: "Caderno Autismo",
-    description: "Pareamento de sombras, formas geométricas, coordenação motora fina e sequências lógicas. Estimula percepção visual, reconhecimento de formas e raciocínio lógico de forma lúdica e interativa.",
-    image: autismoImg,
+    title: "Interpretação - Nível 1",
+    description: "Textos curtos e simples com histórias como 'Lupita, a cadelinha' e 'A formiguinha Dulce'. Questões de identificação, atividades de desenho e construção de base sólida para leitura.",
+    image: nivel1Img,
   },
   {
-    title: "Caderno TDAH",
-    description: "Identificação e classificação de objetos, formas e cores, tracejados e sequência de ações. Desenvolve atenção, concentração, memória visual e organização sequencial.",
-    image: tdahImg,
+    title: "Interpretação - Nível 2",
+    description: "Histórias com personagens bem definidos e questões de compreensão oral e escrita. Desenvolve vocabulário, leitura silenciosa e análise de diálogos em nível intermediário.",
+    image: nivel2Img,
   },
   {
-    title: "Caderno Dislexia",
-    description: "Reconhecimento de letras e sons, formação de palavras, caça-palavras e caligrafia. Trabalha consciência fonológica, fluência na leitura e formação correta das letras.",
-    image: dislexiaImg,
+    title: "Interpretação e Gramática - Nível 3",
+    description: "Textos longos e diversos com análise gramatical avançada: sinônimos, adjetivos, frases interrogativas e exclamativas. Promove pensamento crítico e análise textual.",
+    image: nivel3Img,
   },
 ];
 
@@ -27,10 +27,10 @@ const ProductsSection = () => {
     <section id="cursos" className="py-16 md:py-20 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="font-display text-3xl md:text-4xl font-extrabold text-center text-foreground mb-4">
-          Nossos <span className="text-gradient-primary">Cadernos de Atividades</span>
+          Nossas <span className="text-gradient-primary">Apostilas</span>
         </h2>
         <p className="text-center text-muted-foreground font-body text-lg mb-12 max-w-xl mx-auto">
-          Materiais completos e adaptados, prontos para imprimir e usar em sala de aula ou em casa.
+          Pacotes educativos completos para cada nível de interpretação de textos.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
