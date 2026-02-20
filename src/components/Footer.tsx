@@ -5,13 +5,13 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">🧩</span>
+              <span className="text-2xl">📖</span>
               <span className="font-display text-xl font-bold text-background">
-                Aprender Incluir
+                Aprender Interpretar
               </span>
             </div>
             <p className="font-body text-background/60 text-sm">
-              Atividades educativas adaptadas para crianças com Autismo, TDAH e Dislexia.
+              Apostilas de interpretação de textos para crianças de todos os níveis.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="border-t border-background/20 pt-6 text-center">
           <p className="font-body text-background/50 text-sm">
-            © 2026 Aprender Incluir. Todos os direitos reservados.
+            © 2026 Aprender Interpretar. Todos os direitos reservados.
           </p>
         </div>
       </div>

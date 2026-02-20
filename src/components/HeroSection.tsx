@@ -1,6 +1,6 @@
-import heroImg from "@/assets/hero-inclusive.jpg";
+import heroImg from "@/assets/hero-interpretacao.jpg";
 
-const CHECKOUT_URL = "https://pay.cakto.com.br/in9npth_775414";
+const CHECKOUT_URL = "https://pay.cakto.com.br/9huzggx_775426";
 
 const HeroSection = () => {
   return (
@@ -9,11 +9,11 @@ const HeroSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-10">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="font-display text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-4 md:mb-6 animate-fade-in-up">
-              Transforme o aprendizado de crianças com{" "}
-              <span className="text-gradient-primary">Autismo, TDAH e Dislexia!</span>
+              Ajude seu filho a dominar a{" "}
+              <span className="text-gradient-primary">interpretação de textos!</span>
             </h1>
             <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground max-w-xl mx-auto lg:mx-0 mb-6 md:mb-8 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-              Cadernos completos de atividades adaptadas que estimulam a percepção visual, coordenação motora fina e habilidades linguísticas. Desenvolvidos para proporcionar aprendizado lúdico e eficaz.
+              Aprendizado com histórias interessantes e questões envolventes. Pacotes educativos para crianças de todos os níveis: Nível 1, 2 e 3.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start opacity-0 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
               <a
@@ -35,7 +35,7 @@ const HeroSection = () => {
           <div className="flex-1 opacity-0 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
             <img
               src={heroImg}
-              alt="Crianças aprendendo com atividades educativas inclusivas"
+              alt="Crianças lendo e fazendo atividades de interpretação de textos"
               className="w-full max-w-lg mx-auto rounded-2xl shadow-warm animate-float"
             />
           </div>
